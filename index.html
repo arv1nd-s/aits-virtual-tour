@@ -27,8 +27,8 @@ pannellum.viewer('panorama', {
         "circle": {
             "title": "Main Gate",
             "hfov": 110,
-            "pitch": -3,
-            "yaw": 117,
+            "pitch": 7.9,
+            "yaw": 0.9,
             "type": "equirectangular",
             "panorama": "./images/entry_gate.jpg",
             "hotSpotDebug": true,
@@ -46,7 +46,8 @@ pannellum.viewer('panorama', {
         "campus": {
             "title": "Campus",
             "hfov": 110,
-            "yaw": 5,
+            "yaw": -108.7,
+            "pitch": 6.7,
             "type": "equirectangular",
             "panorama": "./images/entry.jpg",
             "hotSpotDebug": true,
@@ -65,13 +66,21 @@ pannellum.viewer('panorama', {
                     "text": "Campus Central",
                     "sceneId": "campusCentral"
                 },
+                {
+                    "pitch": -8.721423,
+                    "yaw": 84.757712586577,
+                    "type": "scene",
+                    "text": "Main Gate",
+                    "sceneId": "circle"
+                },
             ]
         },
 
         "playground": {
             "title": "Play Ground",
             "hfov": 110,
-            "yaw": 5,
+            "pitch": 2.73,
+            "yaw": -121.18,
             "type": "equirectangular",
             "panorama": "./images/ground.jpg",
             "hotSpotDebug": true,
@@ -88,7 +97,8 @@ pannellum.viewer('panorama', {
         "campusCentral": {
             "title": "Campus Central",
             "hfov": 110,
-            "yaw": 5,
+            "pitch": 4.173,
+            "yaw": 156.087,
             "type": "equirectangular",
             "panorama": "./images/entry1.jpg",
             "hotSpotDebug": true,
@@ -104,7 +114,7 @@ pannellum.viewer('panorama', {
                     "pitch": 4.173,
                     "yaw": 156.087,
                     "type": "scene",
-                    "text": "Campus",
+                    "text": "Campus Buildings",
                     "sceneId": "openArea"
                 }
             ]
@@ -112,14 +122,508 @@ pannellum.viewer('panorama', {
         "openArea": {
             "title": "Campus Buildings",
             "hfov": 110,
-            "yaw": 5,
+            "pitch": 3.810,
+            "yaw": -1.919,
             "type": "equirectangular",
             "panorama": "./images/open_area.jpg",
             "hotSpotDebug": true,
             "hotSpots": [
-                
+            {
+                    "pitch": -6.930,
+                    "yaw": 160.634,
+                    "type": "scene",
+                    "text": "Campus",
+                    "sceneId": "campusCentral"
+                },
+                {
+                    "pitch": 3.810,
+                    "yaw": -1.919,
+                    "type": "scene",
+                    "text": "Accounts",
+                    "sceneId": "accountOutside"
+                },
+                {
+                    "pitch": 1.079,
+                    "yaw": -34.143,
+                    "type": "scene",
+                    "text": "Reception",
+                    "sceneId": "reception"
+                },
+                {
+                    "pitch":  8.695301,
+                    "yaw": 55.16835545815637,
+                    "type": "scene",
+                    "text": "Main Gallery",
+                    "sceneId": "matajiFront"
+                }
             ]
-        }
+        },
+        "accountOutside": {
+            "title": "Account Out Side",
+            "hfov": 110,
+            "pitch": -2.709,
+            "yaw": 164.042,
+            "type": "equirectangular",
+            "panorama": "./images/account_outside.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -2.709,
+                    "yaw": 164.042,
+                    "type": "scene",
+                    "text": "Campus",
+                    "sceneId": "openArea"
+                }
+            ]
+        },
+        "reception": {
+            "title": "Account Out Side",
+            "hfov": 110,
+            "pitch": 4.76450,
+            "yaw": -167.3978,
+            "type": "equirectangular",
+            "panorama": "./images/reception.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+            {
+                    "pitch": -3.58,
+                    "yaw": -106.4,
+                    "type": "scene",
+                    "text": "Campus Buildings",
+                    "sceneId": "openArea"
+                },
+                {
+                    "pitch": 4.76450,
+                    "yaw": -167.3978,
+                    "type": "scene",
+                    "text": "Library Outside",
+                    "sceneId": "libraryOutside"
+                },
+                {
+                    "pitch": -16.985,
+                    "yaw": -156.62,
+                    "type": "scene",
+                    "text": "Seminar Hall",
+                    "sceneId": "seminar"
+                }
+            ]
+        },
+        "seminar": {
+            "title": "Seminar Hall",
+            "hfov": 110,
+            "pitch": -2.709,
+            "yaw": 164.042,
+            "type": "equirectangular",
+            "panorama": "./images/seminar.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -2.709,
+                    "yaw": 164.042,
+                    "type": "scene",
+                    "text": "Reception",
+                    "sceneId": "reception"
+                }
+            ]
+        },
+        "libraryOutside": {
+            "title": "Library Outside",
+            "hfov": 110,
+            "pitch": -0.7693,
+            "yaw": 89.653,
+            "type": "equirectangular",
+            "panorama": "./images/library_outside.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -0.7693,
+                    "yaw": 89.653,
+                    "type": "scene",
+                    "text": "Library",
+                    "sceneId": "library"
+                },
+                {
+                    "pitch": -1.07632,
+                    "yaw": -87.1927,
+                    "type": "scene",
+                    "text": "Basic Science Computer Lab",
+                    "sceneId": "cplab"
+                },
+                {
+                    "pitch": -3.2628,
+                    "yaw": -106.16,
+                    "type": "scene",
+                    "text": "Reception",
+                    "sceneId": "reception"
+                },
+                {
+                    "pitch":  2.7790,
+                    "yaw": 146.587,
+                    "type": "scene",
+                    "text": "Saraswati Temple",
+                    "sceneId": "mataji"
+                }
+            ]
+        },
+        "mataji": {
+            "title": "Saraswati Temple",
+            "hfov": 110,
+            "pitch": 12.2934,
+            "yaw": -153.877,
+            "type": "equirectangular",
+            "panorama": "./images/mataji.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -5.5761,
+                    "yaw": 83.75974,
+                    "type": "scene",
+                    "text": "Library Outside",
+                    "sceneId": "libraryOutside"
+                },
+                {
+                    "pitch":  4.68000146,
+                    "yaw": -51.28,
+                    "type": "scene",
+                    "text": "Robotics",
+                    "sceneId": "robotics"
+                },
+                {
+                    "pitch": -4.238605,
+                    "yaw": 16.40,
+                    "type": "scene",
+                    "text": "Main Gallery",
+                    "sceneId": "matajiFront"
+                },
+                {
+                    "pitch": 12.2934,
+                    "yaw": -153.877,
+                    "type": "scene",
+                    "text": "Backyard",
+                    "sceneId": "backyard"
+                }
+            ]
+        },
+        "matajiFront": {
+            "title": "Main Gallery",
+            "hfov": 110,
+            "pitch":  8.01474,
+            "yaw": 176.203,
+            "type": "equirectangular",
+            "panorama": "./images/mataji_front.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch":  8.01474,
+                    "yaw": 176.203,
+                    "type": "scene",
+                    "text": "Saraswati Temple",
+                    "sceneId": "mataji"
+                },
+                {
+                    "pitch": -12.77635,
+                    "yaw":  75.542,
+                    "type": "scene",
+                    "text": "Campus Buildings",
+                    "sceneId": "openArea"
+                }
+            ]
+        },
+        "library": {
+            "title": "Library",
+            "hfov": 110,
+            "pitch": -4.8106,
+            "yaw": 27.487,
+            "type": "equirectangular",
+            "panorama": "./images/library.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -4.8106,
+                    "yaw": 27.487,
+                    "type": "scene",
+                    "text": "Library Outside",
+                    "sceneId": "libraryOutside"
+                }
+            ]
+        },
+        "cplab": {
+            "title": "Computer Lab",
+            "hfov": 110,
+            "type": "equirectangular",
+            "panorama": "./images/computer_lab_1_floor.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -0.0892,
+                    "yaw": -166.244,
+                    "type": "scene",
+                    "text": "Library Outside",
+                    "sceneId": "libraryOutside"
+                },
+                {
+                    "pitch": 0.301715242879,
+                    "yaw": 117.1400,
+                    "type": "scene",
+                    "text": "Basic Science Classroom",
+                    "sceneId": "bsClass"
+                }
+            ]
+        },
+        "bsClass": {
+            "title": "Basic Science Classroom",
+            "hfov": 110,
+            "pitch": 0.576422,
+            "yaw": -25.363,
+            "type": "equirectangular",
+            "panorama": "./images/basic_science_class.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": 0.576422,
+                    "yaw": -25.363,
+                    "type": "scene",
+                    "text": "Library Outside",
+                    "sceneId": "libraryOutside"
+                }
+            ]
+        },
+        "robotics": {
+            "title": "Robotics",
+            "hfov": 110,
+            "pitch": 0.576422,
+            "yaw": -25.363,
+            "type": "equirectangular",
+            "panorama": "./images/robotics.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -1.8109352472627358,
+                    "yaw": 155.25819796676095,
+                    "type": "scene",
+                    "text": "Saraswati Temple",
+                    "sceneId": "mataji"
+                }
+            ]
+        },
+        "backyard": {
+            "title": "Backyard",
+            "hfov": 110,
+            "pitch": 0.43439,
+            "yaw": 74.1254,
+            "type": "equirectangular",
+            "panorama": "./images/back_yard.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -25.756,
+                    "yaw": 177.83950,
+                    "type": "scene",
+                    "text": "Saraswati Temple",
+                    "sceneId": "mataji"
+                },
+                {
+                    "pitch":  2.22960,
+                    "yaw": 134.578,
+                    "type": "scene",
+                    "text": "First Floor Sitting Area",
+                    "sceneId": "csopenarea"
+                },
+                {
+                    "pitch": 0.43439,
+                    "yaw": 74.1254,
+                    "type": "scene",
+                    "text": "Canteen",
+                    "sceneId": "canteen"
+                }
+            ]
+        },
+        "csopenarea": {
+            "title": "First Floor Sitting Area",
+            "hfov": 110,
+            "pitch": -3.353,
+            "yaw": 130.015,
+            "type": "equirectangular",
+            "panorama": "./images/computer_dept_open_area.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -0.556176,
+                    "yaw":  -155.610,
+                    "type": "scene",
+                    "text": "Backyard",
+                    "sceneId": "backyard"
+                },
+                {
+                    "pitch": -3.353,
+                    "yaw": 130.015,
+                    "type": "scene",
+                    "text": "Computer Science Dept.",
+                    "sceneId": "comp"
+                },                
+                {
+                    "pitch": 2.4932,
+                    "yaw": -103.2610,
+                    "type": "scene",
+                    "text": "Eletrical Dept.",
+                    "sceneId": "elec"
+                },
+                {
+                    "pitch":  0.998976,
+                    "yaw": -174.408,
+                    "type": "scene",
+                    "text": "Top Floor",
+                    "sceneId": "tf"
+                }
+            ]
+        },
+        "canteen": {
+            "title": "Canteen",
+            "hfov": 110,
+            "pitch":  0.214834,
+            "yaw": -153.6246,
+            "type": "equirectangular",
+            "panorama": "./images/canteen.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch":  0.214834,
+                    "yaw": -153.6246,
+                    "type": "scene",
+                    "text": "Backyard",
+                    "sceneId": "backyard"
+                }
+            ]
+        },
+        "comp": {
+            "title": "Computer Science Dept.",
+            "hfov": 110,
+            "pitch": -1.97940,
+            "yaw": -85.40,
+            "type": "equirectangular",
+            "panorama": "./images/computer_dept.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -0.4032,
+                    "yaw": -53.0175,
+                    "type": "scene",
+                    "text": "First Floor Sitting Area",
+                    "sceneId": "csopenarea"
+                },
+                {
+                    "pitch": -1.97940,
+                    "yaw": -85.40,
+                    "type": "scene",
+                    "text": "Computer Lab",
+                    "sceneId": "cpl"
+                },
+            ]
+        },
+        "tf": {
+            "title": "Top Floor",
+            "hfov": 110,
+            "pitch": -11.518219,
+            "yaw": 157.008,
+            "type": "equirectangular",
+            "panorama": "./images/mechanical_round.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -11.518219,
+                    "yaw": 157.008,
+                    "type": "scene",
+                    "text": "First Floor Sitting Araa",
+                    "sceneId": "csopenarea"
+                },
+                {
+                    "pitch": 1.3982741757960035,
+                    "yaw": -67.55172734094555,
+                    "type": "scene",
+                    "text": "Electronics Dept.",
+                    "sceneId": "electronics"
+                },
+                {
+                    "pitch": -2.720091,
+                    "yaw": 59.83258604994798,
+                    "type": "scene",
+                    "text": "Mechanical Dept.",
+                    "sceneId": "mech"
+                }
+            ]
+        },
+        "elec": {
+            "title": "Electrical Dept.",
+            "hfov": 110,
+            "pitch": -8.72668,
+            "yaw": 175.7650,
+            "type": "equirectangular",
+            "panorama": "./images/electrical_dept.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+            {
+                    "pitch": -8.72668,
+                    "yaw": 175.7650,
+                    "type": "scene",
+                    "text": "First Floor Sitting Area",
+                    "sceneId": "csopenarea"
+                }
+            ]
+        },
+        "cpl": {
+            "title": "Computer Lab",
+            "hfov": 110,
+            "pitch": -1.72089,
+            "yaw": -118.49489,
+            "type": "equirectangular",
+            "panorama": "./images/computer_dept_lab.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -1.72089,
+                    "yaw": -118.49489,
+                    "type": "scene",
+                    "text": "Computer Science Dept.",
+                    "sceneId": "comp"
+                }
+            ]
+        },
+        "mech": {
+            "title": "Mechanical Dept.",
+            "hfov": 110,
+            "pitch": 3.028554026196545,
+            "yaw": 87.49415006502653,
+            "type": "equirectangular",
+            "panorama": "./images/mechanical_dept.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+            {
+                    "pitch": 3.028554026196545,
+                    "yaw": 87.49415006502653,
+                    "type": "scene",
+                    "text": "Top Floor",
+                    "sceneId": "tf"
+                }
+            ]
+        },
+        "electronics": {
+            "title": "Electronics Dept.",
+            "hfov": 110,
+            "pitch": -3.2712580194331973,
+            "yaw": 76.32372925818044,
+            "type": "equirectangular",
+            "panorama": "./images/electrical.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+            {
+                    "pitch": -3.2712580194331973,
+                    "yaw": 76.32372925818044,
+                    "type": "scene",
+                    "text": "Top Floor",
+                    "sceneId": "tf"
+                }
+            ]
+        },
     }
 });
 </script>
