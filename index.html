@@ -23,7 +23,6 @@ pannellum.viewer('panorama', {
         "author": "AITS Udaipur",
         "sceneFadeDuration": 1000
     },
-
     "scenes": {
         "circle": {
             "title": "Main Gate",
@@ -31,16 +30,41 @@ pannellum.viewer('panorama', {
             "pitch": -3,
             "yaw": 117,
             "type": "equirectangular",
-            "panorama": "./images/entry gate.jpg",
+            "panorama": "./images/entry_gate.jpg",
             "hotSpotDebug": true,
             "hotSpots": [
                 {
-                    "pitch": -2.040,
-                    "yaw": 22.44,
+                    "pitch": 7.92,
+                    "yaw": 0.94,
+                    "type": "scene",
+                    "text": "Campus",
+                    "sceneId": "campus"
+                }
+            ]
+        },
+
+        "campus": {
+            "title": "Campus",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "./images/entry.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -1.93,
+                    "yaw": 20.30,
                     "type": "scene",
                     "text": "Play Ground",
                     "sceneId": "playground"
-                }
+                },
+                {
+                    "pitch": 6.7748,
+                    "yaw": -108.760,
+                    "type": "scene",
+                    "text": "Campus Central",
+                    "sceneId": "campusCentral"
+                },
             ]
         },
 
@@ -49,7 +73,52 @@ pannellum.viewer('panorama', {
             "hfov": 110,
             "yaw": 5,
             "type": "equirectangular",
-            "panorama": "./playground.jpg",
+            "panorama": "./images/ground.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": 2.73,
+                    "yaw": -121.18,
+                    "type": "scene",
+                    "text": "Campus",
+                    "sceneId": "campus"
+                }
+            ]
+        },
+        "campusCentral": {
+            "title": "Campus Central",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "./images/entry1.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                {
+                    "pitch": -8.720,
+                    "yaw": 21.113,
+                    "type": "scene",
+                    "text": "Campus",
+                    "sceneId": "campus"
+                },
+                {
+                    "pitch": 4.173,
+                    "yaw": 156.087,
+                    "type": "scene",
+                    "text": "Campus",
+                    "sceneId": "openArea"
+                }
+            ]
+        },
+        "openArea": {
+            "title": "Campus Buildings",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "./images/open_area.jpg",
+            "hotSpotDebug": true,
+            "hotSpots": [
+                
+            ]
         }
     }
 });
