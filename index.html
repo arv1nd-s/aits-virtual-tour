@@ -11,14 +11,34 @@
         width: 100vw;
         height: 100vh;
     }
-
-    .fw-icon{
-        opacity: 0.7;
-            background-image: url('./images/arrows/fw.png');
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            height: 100px;
-            width: 100px;
+    .u-icon{
+        /* opacity: 0.7; */
+        background-image: url('./images/arrows/u.gif');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 5vh;
+        width: 5vh;
+    }
+    .r-icon{
+        background-image: url('./images/arrows/r.gif');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 5vh;
+        width: 5vh;
+    }
+    .l-icon{
+        background-image: url('./images/arrows/l.gif');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 5vh;
+        width: 5vh;
+    }
+    .d-icon{
+        background-image: url('./images/arrows/d.gif');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 5vh;
+        width: 5vh;
     }
     </style>
 </head>
@@ -39,16 +59,16 @@ pannellum.viewer('panorama', {
         "circle": {
             "title": "Main Gate",
             "hfov": 110,
-            "pitch": 7.9,
-            "yaw": 0.9,
+            "pitch": 7.325220426182349,
+            "yaw": -3.55050,
             "type": "equirectangular",
-            "panorama": "./images/entry_gate.jpg",
+            "panorama": "./images/main_gate.jpg",
             
             "hotSpots": [
                 {
-                    "cssClass": "fw-icon",
-                    "pitch": -16.2933,
-                    "yaw": 0.479,
+                    "cssClass": "u-icon",
+                    "pitch": 6.028612685060832,
+                    "yaw": 53.20928798549011,
                     "type": "scene",
                     "text": "Campus",
                     "sceneId": "campus"
@@ -66,25 +86,34 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
-                    "cssClass": "fw-icon",
-                    "pitch": -18.9627018,
-                    "yaw": 17.36238,
+                    "cssClass": "u-icon",
+                    "pitch": -1.239320475505008,
+                    "yaw": 15.188672607263618,
                     "type": "scene",
                     "text": "Play Ground",
                     "sceneId": "playground"
                 },
                 {
-                    "cssClass": "fw-icon",
-                    "pitch": -23.7367,
-                    "yaw": -112.418,
+                    "cssClass": "u-icon",
+                    "pitch": 7.392106795794303,
+                    "yaw": -99.81222158816215,
                     "type": "scene",
                     "text": "Campus Central",
                     "sceneId": "campusCentral"
                 },
                 {
-                    "cssClass": "fw-icon",
-                    "pitch": -26.800,
-                    "yaw": 84.165,
+                    "cssClass": "l-icon",
+                    "pitch":  5.382802215026905,
+                    "yaw": -130.28415194882882,
+                    "type": "scene",
+                    "text": "Campus Playgrounds",
+                    // -- REPLACE WITH fbGroundWay
+                    "sceneId": "sideGround1"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -6.786970989335789,
+                    "yaw": 85.10129618611296,
                     "type": "scene",
                     "text": "Main Gate",
                     "sceneId": "circle"
@@ -102,6 +131,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "u-icon",
                     "pitch": 2.73,
                     "yaw": -121.18,
                     "type": "scene",
@@ -120,6 +150,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "u-icon",
                     "pitch": -8.720,
                     "yaw": 21.113,
                     "type": "scene",
@@ -127,15 +158,119 @@ pannellum.viewer('panorama', {
                     "sceneId": "campus"
                 },
                 {
-                    "cssClass": "fw-icon",
-                    "pitch": -19.61356,
-                    "yaw": 158.80,
+                    "cssClass": "u-icon",
+                    "pitch": 0.8383397261581326,
+                    "yaw": 153.77634182602557,
                     "type": "scene",
                     "text": "Campus Buildings",
                     "sceneId": "openArea"
+                },
+                {
+                    "cssClass": "r-icon",
+                    "pitch": -6.790433042260471,
+                    "yaw": 50.811639042414086,
+                    "type": "scene",
+                    "text": "Campus Playgrounds",
+                    "sceneId": "sideGround1"
+                },
+                // -- UNCOMMENT AFTER ADDITION --
+                // {
+                //     "cssClass": "r-icon",
+                //     "pitch": -19.61356,
+                //     "yaw": 158.80,
+                //     "type": "scene",
+                //     "text": "Seminar Hall Gate Entry",
+                //     "sceneId": "fbGroundWay"
+                // }
+            ]
+        },
+        // --- ADD THE CODE ---
+        // "fbGroudWay": {
+        //     "title": "Seminar Hall Gate Entry",
+        //     "hfov": 110,
+        //     "pitch": 4.173,
+        //     "yaw": 156.087,
+        //     "type": "equirectangular",
+        //     "panorama": "./images/entry1.jpg",
+            
+        //     "hotSpots": [
+        //     ]
+        // },
+        "sideGround1": {
+            "title": "Campus Playgrounds",
+            "hfov": 110,
+            "pitch": 3.810,
+            "yaw": -1.919,
+            "type": "equirectangular",
+            "panorama": "./images/side_ground1.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -3.151213047483783,
+                    "yaw": 157.3360925097785,
+                    "type": "scene",
+                    "text": "Campus",
+                    "sceneId": "campusCentral"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 3.810,
+                    "yaw": -1.919,
+                    "type": "scene",
+                    "text": "Campus Playgrounds",
+                    "sceneId": "sideGround2"
                 }
             ]
         },
+        "sideGround2": {
+            "title": "Campus Playgrounds",
+            "hfov": 110,
+            "pitch": 3.810,
+            "yaw": -1.919,
+            "type": "equirectangular",
+            "panorama": "./images/side_ground2.jpg",
+            
+            "hotSpots": [
+            {
+                    "cssClass": "u-icon",
+                    "pitch": 4.779972883420289,
+                    "yaw": -108.14902852227286,
+                    "type": "scene",
+                    "text": "Campus",
+                    "sceneId": "sideGround1"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 3.810,
+                    "yaw": -1.919,
+                    "type": "scene",
+                    "text": "Campus Playgrounds",
+                    "sceneId": "sideGround3"
+                }
+            ]
+        },
+        "sideGround3": {
+            "title": "Campus Playgrounds",
+            "hfov": 110,
+            "pitch": 3.810,
+            "yaw": -1.919,
+            "type": "equirectangular",
+            "panorama": "./images/side_ground3.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 5.5794714040497,
+                    "yaw": -165.60098649317234,
+                    "type": "scene",
+                    "text": "Campus Playgrounds",
+                    "sceneId": "sideGround2"
+                }
+            ]
+        },
+
+
         "openArea": {
             "title": "Campus Buildings",
             "hfov": 110,
@@ -146,13 +281,15 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
             {
-                    "pitch": -6.930,
-                    "yaw": 160.634,
+                    "cssClass": "d-icon",
+                    "pitch": -15.455041191254956,
+                    "yaw": 157.6854924705604,
                     "type": "scene",
                     "text": "Campus",
                     "sceneId": "campusCentral"
                 },
                 {
+                    "cssClass": "r-icon",
                     "pitch": 3.810,
                     "yaw": -1.919,
                     "type": "scene",
@@ -160,6 +297,7 @@ pannellum.viewer('panorama', {
                     "sceneId": "accountOutside"
                 },
                 {
+                    "cssClass": "u-icon",
                     "pitch": 1.079,
                     "yaw": -34.143,
                     "type": "scene",
@@ -167,6 +305,7 @@ pannellum.viewer('panorama', {
                     "sceneId": "reception"
                 },
                 {
+                    "cssClass": "u-icon",
                     "pitch":  8.695301,
                     "yaw": 55.16835545815637,
                     "type": "scene",
@@ -203,6 +342,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
             {
+                    "cssClass": "u-icon",
                     "pitch": -3.58,
                     "yaw": -106.4,
                     "type": "scene",
@@ -210,6 +350,7 @@ pannellum.viewer('panorama', {
                     "sceneId": "openArea"
                 },
                 {
+                    "cssClass": "u-icon",
                     "pitch": 4.76450,
                     "yaw": -167.3978,
                     "type": "scene",
@@ -217,11 +358,39 @@ pannellum.viewer('panorama', {
                     "sceneId": "libraryOutside"
                 },
                 {
+                    "cssClass": "d-icon",
                     "pitch": -16.985,
                     "yaw": -156.62,
                     "type": "scene",
                     "text": "Seminar Hall",
                     "sceneId": "seminar"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -2.597335335174712,
+                    "yaw": 88.93974756237259,
+                    "type": "scene",
+                    "text": "Conference Room",
+                    "sceneId": "conference"
+                }
+            ]
+        },
+        "conference": {
+            "title": "Conference Room",
+            "hfov": 110,
+            "pitch": -2.709,
+            "yaw": 164.042,
+            "type": "equirectangular",
+            "panorama": "./images/conference.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -0.4606094001854606,
+                    "yaw": -3.6054656773094607,
+                    "type": "scene",
+                    "text": "Reception",
+                    "sceneId": "reception"
                 }
             ]
         },
@@ -235,6 +404,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "u-icon",
                     "pitch": -2.709,
                     "yaw": 164.042,
                     "type": "scene",
@@ -253,6 +423,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "u-icon",
                     "pitch": -0.7693,
                     "yaw": 89.653,
                     "type": "scene",
@@ -260,6 +431,7 @@ pannellum.viewer('panorama', {
                     "sceneId": "library"
                 },
                 {
+                    "cssClass": "u-icon",
                     "pitch": -1.07632,
                     "yaw": -87.1927,
                     "type": "scene",
@@ -267,6 +439,7 @@ pannellum.viewer('panorama', {
                     "sceneId": "cplab"
                 },
                 {
+                    "cssClass": "d-icon",
                     "pitch": -3.2628,
                     "yaw": -106.16,
                     "type": "scene",
@@ -274,6 +447,7 @@ pannellum.viewer('panorama', {
                     "sceneId": "reception"
                 },
                 {
+                    "cssClass": "r-icon",
                     "pitch":  2.7790,
                     "yaw": 146.587,
                     "type": "scene",
@@ -356,6 +530,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "r-icon",
                     "pitch": -4.8106,
                     "yaw": 27.487,
                     "type": "scene",
