@@ -480,6 +480,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "r-icon",
                     "pitch": -5.5761,
                     "yaw": 83.75974,
                     "type": "scene",
@@ -487,25 +488,55 @@ pannellum.viewer('panorama', {
                     "sceneId": "libraryOutside"
                 },
                 {
+                    "cssClass": "l-icon",
                     "pitch":  4.68000146,
                     "yaw": -51.28,
                     "type": "scene",
-                    "text": "Robotics",
-                    "sceneId": "robotics"
+                    "text": "Basic Science Dep. Corridor",
+                    "sceneId": "chemOutside"
                 },
                 {
+                    "cssClass": "u-icon",
                     "pitch": -4.238605,
                     "yaw": 16.40,
                     "type": "scene",
-                    "text": "Main Gallery",
+                    "text": "Saraswati Temple",
                     "sceneId": "matajiFrontActual"
                 },
                 {
+                    "cssClass": "u-icon",
                     "pitch": 12.2934,
                     "yaw": -153.877,
                     "type": "scene",
                     "text": "Backyard",
                     "sceneId": "backyard"
+                }
+            ]
+        },
+        "chemOutside": {
+            "title": "Basic Science Dep. Corridor",
+            "hfov": 110,
+            "pitch": -2.709,
+            "yaw": 164.042,
+            "type": "equirectangular",
+            "panorama": "./images/chemistry_outside.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -6.3532711915869475,
+                    "yaw": -82.84323,
+                    "type": "scene",
+                    "text": "Saraswati Temple",
+                    "sceneId": "mataji"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -0.25236386424528817,
+                    "yaw": 28.903714791672343,
+                    "type": "scene",
+                    "text": "Chemistry Lab",
+                    "sceneId": "chemLab"
                 }
             ]
         },
@@ -519,13 +550,15 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "u-icon",
                     "pitch":  8.01474,
                     "yaw": 176.203,
                     "type": "scene",
                     "text": "Saraswati Temple",
-                    "sceneId": "libraryOutside"
+                    "sceneId": "matajiFrontActual"
                 },
                 {
+                    "cssClass": "u-icon",
                     "pitch": -12.77635,
                     "yaw":  75.542,
                     "type": "scene",
@@ -535,7 +568,7 @@ pannellum.viewer('panorama', {
             ]
         },
         "matajiFrontActual": {
-            "title": "Main Gallery",
+            "title": "Saraswati Temple",
             "hfov": 110,
             "pitch":  8.01474,
             "yaw": 176.203,
@@ -544,18 +577,36 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
-                    "pitch":  8.01474,
-                    "yaw": 176.203,
+                    "cssClass": "r-icon",
+                    "pitch":  8.250297006248577,
+                    "yaw": 53.199351017612145,
+                    "type": "scene",
+                    "text": "Basic Science Dep. Corridor",
+                    "sceneId": "chemOutside"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -11.769262526624626,
+                    "yaw":  -4.09634347608338,
                     "type": "scene",
                     "text": "Saraswati Temple",
                     "sceneId": "mataji"
                 },
                 {
-                    "pitch": -12.77635,
-                    "yaw":  75.542,
+                    "cssClass": "d-icon",
+                    "pitch":  8.01474,
+                    "yaw": 176.203,
                     "type": "scene",
                     "text": "Campus Buildings",
                     "sceneId": "openArea"
+                },
+                {
+                    "cssClass": "l-icon",
+                    "pitch": 5.050566645921689,
+                    "yaw": -52.98629146288623,
+                    "type": "scene",
+                    "text": "Library Outside",
+                    "sceneId": "libraryOutside"
                 }
             ]
         },
@@ -674,6 +725,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "d-icon",
                     "pitch": -25.756,
                     "yaw": 177.83950,
                     "type": "scene",
@@ -681,6 +733,7 @@ pannellum.viewer('panorama', {
                     "sceneId": "mataji"
                 },
                 {
+                    "cssClass": "u-icon",
                     "pitch":  2.22960,
                     "yaw": 134.578,
                     "type": "scene",
@@ -688,11 +741,120 @@ pannellum.viewer('panorama', {
                     "sceneId": "csopenarea"
                 },
                 {
+                    "cssClass": "u-icon",
                     "pitch": 0.43439,
                     "yaw": 74.1254,
                     "type": "scene",
                     "text": "Canteen",
                     "sceneId": "canteen"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 1.0814598485813274,
+                    "yaw": -77.1768539713691,
+                    "type": "scene",
+                    "text": "workshop",
+                    "sceneId": "workshop"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 2.133931643703928,
+                    "yaw": -0.8999745956468566,
+                    "type": "scene",
+                    "text": "Pratap Hostel",
+                    "sceneId": "phFront"
+                }
+            ]
+        },
+        "workshop": {
+            "title": "Workshop",
+            "hfov": 110,
+            "pitch":  0.214834,
+            "yaw": -153.6246,
+            "type": "equirectangular",
+            "panorama": "./images/workshop.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "u-icon",
+                    "pitch":  1.4337995628791322,
+                    "yaw": 141.93780720343293,
+                    "type": "scene",
+                    "text": "Backyard",
+                    "sceneId": "backyard"
+                }
+            ]
+        },
+        "phFront": {
+            "title": "Pratap Hostel",
+            "hfov": 110,
+            "pitch":  0.214834,
+            "yaw": -153.6246,
+            "type": "equirectangular",
+            "panorama": "./images/pratap_front.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "u-icon",
+                    "pitch":  9.400866126503372,
+                    "yaw": -150.09123825366333,
+                    "type": "scene",
+                    "text": "Hostel Mess",
+                    "sceneId": "mess"
+                },
+                {
+                    "cssClass": "r-icon",
+                    "pitch":  -4.9228904149037325,
+                    "yaw": 173.29149607146775,
+                    "type": "scene",
+                    "text": "Gym",
+                    "sceneId": "gym"
+                },
+                {
+                    "cssClass": "d-icon",
+                    "pitch": -6.656887563519021,
+                    "yaw": 64.22588568430147,
+                    "type": "scene",
+                    "text": "Backyard",
+                    "sceneId": "backyard"
+                }
+            ]
+        },
+        "mess": {
+            "title": "Hostel Mess",
+            "hfov": 110,
+            "pitch":  0.214834,
+            "yaw": -153.6246,
+            "type": "equirectangular",
+            "panorama": "./images/mess.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "u-icon",
+                    "pitch":  0.11788045892376868,
+                    "yaw": -79.48440095935504,
+                    "type": "scene",
+                    "text": "Pratap Hostel",
+                    "sceneId": "phFront"
+                }
+            ]
+        },
+        "gym": {
+            "title": "Gymnasium",
+            "hfov": 110,
+            "pitch":  0.214834,
+            "yaw": -153.6246,
+            "type": "equirectangular",
+            "panorama": "./images/gym.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "l-icon",
+                    "pitch":  0.11788045892376868,
+                    "yaw": -79.48440095935504,
+                    "type": "scene",
+                    "text": "Pratap Hostel",
+                    "sceneId": "phFront"
                 }
             ]
         },
