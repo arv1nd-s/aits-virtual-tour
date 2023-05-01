@@ -108,7 +108,7 @@ pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Campus Playgrounds",
                     // -- REPLACE WITH fbGroundWay
-                    "sceneId": "sideGround1"
+                    "sceneId": "fbGroundWay"
                 },
                 {
                     "cssClass": "u-icon",
@@ -165,61 +165,75 @@ pannellum.viewer('panorama', {
                     "text": "Campus Buildings",
                     "sceneId": "openArea"
                 },
+                // {
+                //     "cssClass": "r-icon",
+                //     "pitch": -6.790433042260471,
+                //     "yaw": 50.811639042414086,
+                //     "type": "scene",
+                //     "text": "Campus Playgrounds",
+                //     "sceneId": "sideGround1"
+                // },
                 {
                     "cssClass": "r-icon",
                     "pitch": -6.790433042260471,
                     "yaw": 50.811639042414086,
                     "type": "scene",
-                    "text": "Campus Playgrounds",
-                    "sceneId": "sideGround1"
-                },
-                // -- UNCOMMENT AFTER ADDITION --
-                // {
-                //     "cssClass": "r-icon",
-                //     "pitch": -19.61356,
-                //     "yaw": 158.80,
-                //     "type": "scene",
-                //     "text": "Seminar Hall Gate Entry",
-                //     "sceneId": "fbGroundWay"
-                // }
+                    "text": "Seminar Hall Gate Entry",
+                    "sceneId": "fbGroundWay"
+                }
             ]
         },
-        // --- ADD THE CODE ---
-        // "fbGroudWay": {
-        //     "title": "Seminar Hall Gate Entry",
-        //     "hfov": 110,
-        //     "pitch": 4.173,
-        //     "yaw": 156.087,
-        //     "type": "equirectangular",
-        //     "panorama": "./images/entry1.jpg",
+        "fbGroundWay": {
+            "title": "Seminar Hall Gate Entry",
+            "hfov": 110,
+            "pitch": 4.173,
+            "yaw": 156.087,
+            "type": "equirectangular",
+            "panorama": "./images/seminar_outside.jpg",
             
-        //     "hotSpots": [
-        //     ]
-        // },
+            "hotSpots": [
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 6.563425004984176,
+                    "yaw": -167.0767008239933,
+                    "type": "scene",
+                    "text": "Campus",
+                    "sceneId": "campus"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 1.9407678288128931,
+                    "yaw": -1.8677756626187403,
+                    "type": "scene",
+                    "text": "Campus Playgrounds",
+                    "sceneId": "sideGround1"
+                }
+            ]
+        },
         "sideGround1": {
             "title": "Campus Playgrounds",
             "hfov": 110,
             "pitch": 3.810,
             "yaw": -1.919,
             "type": "equirectangular",
-            "panorama": "./images/side_ground1.jpg",
+            "panorama": "./images/ground_open_area.jpg",
             
             "hotSpots": [
                 {
                     "cssClass": "u-icon",
-                    "pitch": -3.151213047483783,
-                    "yaw": 157.3360925097785,
+                    "pitch": 4.976152932619333,
+                    "yaw": -8.306834113594006,
                     "type": "scene",
-                    "text": "Campus",
-                    "sceneId": "campusCentral"
+                    "text": "Seminar Hall Gate Entry",
+                    "sceneId": "fbGroundWay"
                 },
                 {
                     "cssClass": "u-icon",
-                    "pitch": 3.810,
-                    "yaw": -1.919,
+                    "pitch": -0.6287693670657012,
+                    "yaw": 85.07110984150872,
                     "type": "scene",
-                    "text": "Campus Playgrounds",
-                    "sceneId": "sideGround2"
+                    "text": "Cricket/Football Ground",
+                    "sceneId": "sideGround3"
                 }
             ]
         },
@@ -264,8 +278,8 @@ pannellum.viewer('panorama', {
                     "pitch": 5.5794714040497,
                     "yaw": -165.60098649317234,
                     "type": "scene",
-                    "text": "Campus Playgrounds",
-                    "sceneId": "sideGround2"
+                    "text": "Campus Playground",
+                    "sceneId": "sideGround1"
                 }
             ]
         },
@@ -386,8 +400,8 @@ pannellum.viewer('panorama', {
             "hotSpots": [
                 {
                     "cssClass": "u-icon",
-                    "pitch": -0.4606094001854606,
-                    "yaw": -3.6054656773094607,
+                    "pitch": -2.885987427206642,
+                    "yaw": -116.82636027830863,
                     "type": "scene",
                     "text": "Reception",
                     "sceneId": "reception"
@@ -400,13 +414,13 @@ pannellum.viewer('panorama', {
             "pitch": -2.709,
             "yaw": 164.042,
             "type": "equirectangular",
-            "panorama": "./images/seminar.jpg",
+            "panorama": "./images/seminar_hall.jpg",
             
             "hotSpots": [
                 {
                     "cssClass": "u-icon",
-                    "pitch": -2.709,
-                    "yaw": 164.042,
+                    "pitch": -6.3532711915869475,
+                    "yaw": -82.84323,
                     "type": "scene",
                     "text": "Reception",
                     "sceneId": "reception"
@@ -484,7 +498,7 @@ pannellum.viewer('panorama', {
                     "yaw": 16.40,
                     "type": "scene",
                     "text": "Main Gallery",
-                    "sceneId": "matajiFront"
+                    "sceneId": "matajiFrontActual"
                 },
                 {
                     "pitch": 12.2934,
@@ -502,6 +516,31 @@ pannellum.viewer('panorama', {
             "yaw": 176.203,
             "type": "equirectangular",
             "panorama": "./images/mataji_front.jpg",
+            
+            "hotSpots": [
+                {
+                    "pitch":  8.01474,
+                    "yaw": 176.203,
+                    "type": "scene",
+                    "text": "Saraswati Temple",
+                    "sceneId": "libraryOutside"
+                },
+                {
+                    "pitch": -12.77635,
+                    "yaw":  75.542,
+                    "type": "scene",
+                    "text": "Campus Buildings",
+                    "sceneId": "openArea"
+                }
+            ]
+        },
+        "matajiFrontActual": {
+            "title": "Main Gallery",
+            "hfov": 110,
+            "pitch":  8.01474,
+            "yaw": 176.203,
+            "type": "equirectangular",
+            "panorama": "./images/mataji_front_1.jpg",
             
             "hotSpots": [
                 {
@@ -536,6 +575,33 @@ pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Library Outside",
                     "sceneId": "libraryOutside"
+                },
+                {
+                    "cssClass": "d-icon",
+                    "pitch": -4.65330616676939,
+                    "yaw": 148.1170845052715,
+                    "type": "scene",
+                    "text": "Library Book Hall",
+                    "sceneId": "bookHaul"
+                }
+            ]
+        },
+        "bookHaul": {
+            "title": "Library Book Hall",
+            "hfov": 110,
+            "pitch": -4.8106,
+            "yaw": 27.487,
+            "type": "equirectangular",
+            "panorama": "./images/library_underground.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -1.0567288215798714,
+                    "yaw": -93.95822524517837,
+                    "type": "scene",
+                    "text": "Library",
+                    "sceneId": "library"
                 }
             ]
         },
