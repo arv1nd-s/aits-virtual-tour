@@ -338,6 +338,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "u-icon",
                     "pitch": -2.709,
                     "yaw": 164.042,
                     "type": "scene",
@@ -386,6 +387,33 @@ pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Conference Room",
                     "sceneId": "conference"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -7.0840422316069045,
+                    "yaw": 33.23401177524795,
+                    "type": "scene",
+                    "text": "Director's Office",
+                    "sceneId": "directorRoom"
+                }
+            ]
+        },
+        "directorRoom": {
+            "title": "Director's Office",
+            "hfov": 110,
+            "pitch": -2.709,
+            "yaw": 164.042,
+            "type": "equirectangular",
+            "panorama": "./images/director_room.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -5.613619662408187,
+                    "yaw": -64.98603118821615,
+                    "type": "scene",
+                    "text": "Reception",
+                    "sceneId": "reception"
                 }
             ]
         },
@@ -537,6 +565,159 @@ pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Chemistry Lab",
                     "sceneId": "chemLab"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 1.0026367871389712,
+                    "yaw": 87.0660634580984,
+                    "type": "scene",
+                    "text": "Canteen Outside",
+                    "sceneId": "canteenOutside"
+                },
+            ]
+        },
+        "canteenOutside": {
+            "title": "Canteen Outside.",
+            "hfov": 110,
+            "pitch": -3.2712580194331973,
+            "yaw": 76.32372925818044,
+            "type": "equirectangular",
+            "panorama": "./images/canteen_front.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 2.613620450046163,
+                    "yaw": -85.13249846395813,
+                    "type": "scene",
+                    "text": "Canteen",
+                    "sceneId": "canteen"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 1.5239151404765254,
+                    "yaw": -176.97511702885114,
+                    "type": "scene",
+                    "text": "Basic Science Dep. Corridor",
+                    "sceneId": "chemOutside"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 1.9989032364085175,
+                    "yaw": -46.603859388548585,
+                    "type": "scene",
+                    "text": "Raman Hostel",
+                    "sceneId": "ramanOutside"
+                }
+            ]
+        },
+        "ramanOutside": {
+            "title": "Raman Hostel",
+            "hfov": 110,
+            "pitch": -2.709,
+            "yaw": 164.042,
+            "type": "equirectangular",
+            "panorama": "./images/raman_outside.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "r-icon",
+                    "pitch": 6.089161523850505,
+                    "yaw": 31.135745023669994,
+                    "type": "scene",
+                    "text": "Canteen",
+                    "sceneId": "canteen"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 3.778084032526582,
+                    "yaw": -25.779980291312974,
+                    "type": "scene",
+                    "text": "Canteen Outside",
+                    "sceneId": "canteenOutside"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 6.880699264074892,
+                    "yaw": 12.23242736884989,
+                    "type": "scene",
+                    "text": "Backyard",
+                    "sceneId": "backyard"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 6.023380584687788,
+                    "yaw": 167.71774480666812,
+                    "type": "scene",
+                    "text": "Raman Hostel",
+                    "sceneId": "ramanCorridor"
+                }
+            ]
+        },
+        "ramanCorridor": {
+            "title": "Raman Hostel Corridor",
+            "hfov": 110,
+            "pitch": -2.709,
+            "yaw": 164.042,
+            "type": "equirectangular",
+            "panorama": "./images/raman_corridor.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "r-icon",
+                    "pitch": -3.950882393346875,
+                    "yaw": 7.556197467650701,
+                    "type": "scene",
+                    "text": "Raman Hostel's Room",
+                    "sceneId": "ramanRoom"
+                },
+                {
+                    "cssClass": "d-icon",
+                    "pitch": -4.26697725101837,
+                    "yaw": 114.06959168427635,
+                    "type": "scene",
+                    "text": "Raman Hostel",
+                    "sceneId": "ramanOutside"
+                }
+            ]
+        },
+        "ramanRoom": {
+            "title": "Raman Hostel Room",
+            "hfov": 110,
+            "pitch": -2.709,
+            "yaw": 164.042,
+            "type": "equirectangular",
+            "panorama": "./images/raman_room_front.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "r-icon",
+                    "pitch": -4.26697725101837,
+                    "yaw": 114.06959168427635,
+                    "type": "scene",
+                    "text": "Raman Hostel's Corridor",
+                    "sceneId": "ramanCorridor"
+                }
+            ]
+        },
+
+
+        "chemLab": {
+            "title": "Chemistry Lab",
+            "hfov": 110,
+            "pitch": -2.709,
+            "yaw": 164.042,
+            "type": "equirectangular",
+            "panorama": "./images/chemistry_lab.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "r-icon",
+                    "pitch": -4.26697725101837,
+                    "yaw": 114.06959168427635,
+                    "type": "scene",
+                    "text": "Basic Science Dep. Corridor",
+                    "sceneId": "chemOutside"
                 }
             ]
         },
@@ -607,6 +788,33 @@ pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Library Outside",
                     "sceneId": "libraryOutside"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -1.5876357265272838,
+                    "yaw": 85.0916110824626,
+                    "type": "scene",
+                    "text": "Electrical Lab",
+                    "sceneId": "eleLab"
+                }
+            ]
+        },
+        "eleLab": {
+            "title": "Electrical Lab",
+            "hfov": 110,
+            "pitch": -4.8106,
+            "yaw": 27.487,
+            "type": "equirectangular",
+            "panorama": "./images/electrical_lab_basic_science.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -4.300321339159839,
+                    "yaw": -158.23483346194658,
+                    "type": "scene",
+                    "text": "Saraswati Temple",
+                    "sceneId": "matajiFrontActual"
                 }
             ]
         },
@@ -664,6 +872,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "u-icon",
                     "pitch": -0.0892,
                     "yaw": -166.244,
                     "type": "scene",
@@ -671,6 +880,7 @@ pannellum.viewer('panorama', {
                     "sceneId": "libraryOutside"
                 },
                 {
+                    "cssClass": "l-icon",
                     "pitch": 0.301715242879,
                     "yaw": 117.1400,
                     "type": "scene",
@@ -689,6 +899,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "r-icon",
                     "pitch": 0.576422,
                     "yaw": -25.363,
                     "type": "scene",
@@ -745,8 +956,8 @@ pannellum.viewer('panorama', {
                     "pitch": 0.43439,
                     "yaw": 74.1254,
                     "type": "scene",
-                    "text": "Canteen",
-                    "sceneId": "canteen"
+                    "text": "Raman Hostel",
+                    "sceneId": "ramanOutside"
                 },
                 {
                     "cssClass": "u-icon",
@@ -803,14 +1014,6 @@ pannellum.viewer('panorama', {
                     "sceneId": "mess"
                 },
                 {
-                    "cssClass": "r-icon",
-                    "pitch":  -4.9228904149037325,
-                    "yaw": 173.29149607146775,
-                    "type": "scene",
-                    "text": "Gym",
-                    "sceneId": "gym"
-                },
-                {
                     "cssClass": "d-icon",
                     "pitch": -6.656887563519021,
                     "yaw": 64.22588568430147,
@@ -839,25 +1042,6 @@ pannellum.viewer('panorama', {
                 }
             ]
         },
-        "gym": {
-            "title": "Gymnasium",
-            "hfov": 110,
-            "pitch":  0.214834,
-            "yaw": -153.6246,
-            "type": "equirectangular",
-            "panorama": "./images/gym.jpg",
-            
-            "hotSpots": [
-                {
-                    "cssClass": "l-icon",
-                    "pitch":  0.11788045892376868,
-                    "yaw": -79.48440095935504,
-                    "type": "scene",
-                    "text": "Pratap Hostel",
-                    "sceneId": "phFront"
-                }
-            ]
-        },
         "csopenarea": {
             "title": "First Floor Sitting Area",
             "hfov": 110,
@@ -868,6 +1052,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "d-icon",
                     "pitch": -0.556176,
                     "yaw":  -155.610,
                     "type": "scene",
@@ -875,6 +1060,7 @@ pannellum.viewer('panorama', {
                     "sceneId": "backyard"
                 },
                 {
+                    "cssClass": "l-icon",
                     "pitch": -3.353,
                     "yaw": 130.015,
                     "type": "scene",
@@ -882,6 +1068,7 @@ pannellum.viewer('panorama', {
                     "sceneId": "comp"
                 },                
                 {
+                    "cssClass": "u-icon",
                     "pitch": 2.4932,
                     "yaw": -103.2610,
                     "type": "scene",
@@ -889,11 +1076,39 @@ pannellum.viewer('panorama', {
                     "sceneId": "elec"
                 },
                 {
+                    "cssClass": "u-icon",
                     "pitch":  0.998976,
                     "yaw": -174.408,
                     "type": "scene",
                     "text": "Top Floor",
                     "sceneId": "tf"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -2.6159345594242174,
+                    "yaw": -76.66628330732266,
+                    "type": "scene",
+                    "text": "Physics Lab",
+                    "sceneId": "phyLab"
+                }
+            ]
+        },
+        "phyLab": {
+            "title": "Physics Lab",
+            "hfov": 110,
+            "pitch":  0.214834,
+            "yaw": -153.6246,
+            "type": "equirectangular",
+            "panorama": "./images/physics_lab.jpg",
+            
+            "hotSpots": [
+                {
+                    "cssClass": "u-icon",
+                    "pitch":  -3.6363098748078015,
+                    "yaw": -137.349221037662,
+                    "type": "scene",
+                    "text": "First Floor Sitting Area",
+                    "sceneId": "csopenarea"
                 }
             ]
         },
@@ -907,11 +1122,12 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
-                    "pitch":  0.214834,
-                    "yaw": -153.6246,
+                    "cssClass": "l-icon",
+                    "pitch":  -0.6927677033364127,
+                    "yaw": -171.86121443974724,
                     "type": "scene",
-                    "text": "Backyard",
-                    "sceneId": "backyard"
+                    "text": "Campus Gardens",
+                    "sceneId": "ramanOutside"
                 }
             ]
         },
@@ -925,6 +1141,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "u-icon",
                     "pitch": -0.4032,
                     "yaw": -53.0175,
                     "type": "scene",
@@ -932,6 +1149,7 @@ pannellum.viewer('panorama', {
                     "sceneId": "csopenarea"
                 },
                 {
+                    "cssClass": "u-icon",
                     "pitch": -1.97940,
                     "yaw": -85.40,
                     "type": "scene",
@@ -950,6 +1168,7 @@ pannellum.viewer('panorama', {
             
             "hotSpots": [
                 {
+                    "cssClass": "d-icon",
                     "pitch": -11.518219,
                     "yaw": 157.008,
                     "type": "scene",
@@ -957,6 +1176,7 @@ pannellum.viewer('panorama', {
                     "sceneId": "csopenarea"
                 },
                 {
+                    "cssClass": "u-icon",
                     "pitch": 1.3982741757960035,
                     "yaw": -67.55172734094555,
                     "type": "scene",
@@ -964,6 +1184,7 @@ pannellum.viewer('panorama', {
                     "sceneId": "electronics"
                 },
                 {
+                    "cssClass": "u-icon",
                     "pitch": -2.720091,
                     "yaw": 59.83258604994798,
                     "type": "scene",
@@ -981,7 +1202,8 @@ pannellum.viewer('panorama', {
             "panorama": "./images/electrical_dept.jpg",
             
             "hotSpots": [
-            {
+                {
+                    "cssClass": "u-icon",
                     "pitch": -8.72668,
                     "yaw": 175.7650,
                     "type": "scene",
@@ -1017,7 +1239,8 @@ pannellum.viewer('panorama', {
             "panorama": "./images/mechanical_dept.jpg",
             
             "hotSpots": [
-            {
+                {
+                    "cssClass": "u-icon",
                     "pitch": 3.028554026196545,
                     "yaw": 87.49415006502653,
                     "type": "scene",
@@ -1035,7 +1258,8 @@ pannellum.viewer('panorama', {
             "panorama": "./images/electrical.jpg",
             
             "hotSpots": [
-            {
+                {
+                    "cssClass": "u-icon",
                     "pitch": -3.2712580194331973,
                     "yaw": 76.32372925818044,
                     "type": "scene",
