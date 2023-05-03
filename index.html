@@ -12,7 +12,7 @@
         height: 100vh;
     }
     .u-icon{
-        /* opacity: 0.7; */
+        opacity: 0.8;
         background-image: url('./images/arrows/u.gif');
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -20,6 +20,7 @@
         width: 5vh;
     }
     .r-icon{
+        opacity: 0.8;
         background-image: url('./images/arrows/r.gif');
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -27,6 +28,7 @@
         width: 5vh;
     }
     .l-icon{
+        opacity: 0.8;
         background-image: url('./images/arrows/l.gif');
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -34,6 +36,7 @@
         width: 5vh;
     }
     .d-icon{
+        opacity: 0.8;
         background-image: url('./images/arrows/d.gif');
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -53,7 +56,7 @@ pannellum.viewer('panorama', {
         "autoLoad": true,
         "sceneFadeDuration": 500,
         "cssClass": "fw-icon",
-        "hotSpotDebug": true
+        "hotSpotDebug": false
     },
     "scenes": {
         "circle": {
@@ -107,7 +110,6 @@ pannellum.viewer('panorama', {
                     "yaw": -130.28415194882882,
                     "type": "scene",
                     "text": "Campus Playgrounds",
-                    // -- REPLACE WITH fbGroundWay
                     "sceneId": "fbGroundWay"
                 },
                 {
@@ -207,7 +209,15 @@ pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Campus Playgrounds",
                     "sceneId": "sideGround1"
-                }
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": 3.968277477913014,
+                    "yaw": 54.27461114775896,
+                    "type": "scene",
+                    "text": "Seminar Hall",
+                    "sceneId": "seminar"
+                },
             ]
         },
         "sideGround1": {
@@ -452,6 +462,14 @@ pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Reception",
                     "sceneId": "reception"
+                },
+                {
+                    "cssClass": "u-icon",
+                    "pitch": -4.52148116437327,
+                    "yaw": 72.73385751371009,
+                    "type": "scene",
+                    "text": "Seminar Main Gate",
+                    "sceneId": "fbGroundWay"
                 }
             ]
         },
