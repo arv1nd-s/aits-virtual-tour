@@ -6,3 +6,12 @@ With this virtual tour, prospective students, parents, and anyone interested in 
 The AITS, Udaipur Campus Virtual Tour provides an interactive and immersive experience, allowing users to explore the campus at their own pace and from any location. It is a valuable tool for students who are considering applying to the college, as well as for those who are already enrolled and want to familiarize themselves with the campus.
 
 Overall, the AITS, Udaipur Campus Virtual Tour is a cutting-edge project that showcases the college's commitment to innovation and excellence. We are proud to have developed this virtual tour and look forward to sharing it with the world.
+
+**Team Members**
+- Murtaza Amet
+- Arvind
+- Ajay
+- Laxman
+- Vikas
+- Naresh
+- Nayan
